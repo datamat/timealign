@@ -23,8 +23,8 @@ The easiest way to use any of the functions in the `timealign` package would be 
 Each function can be found in the complete R script called `timealgin.R`. 
 
 ### Descriptivion of functions
-- `tsalign`	Mean (average) absolute deviation from the mean
-- `generatets`	Frequency of the sample mode
-- `fillintergaps`	Sample mode
+- `tsalign`	 This is main function, where a data.frame is filled into a complete and perfectly aligned timestamp at the given resolution.
+- `generatets`	This function generates a timestamp which is then used by tsalign.
+- `fillintergaps`  This function fill all the gaps within a given time span in a linear way. 
 
 Please feel free to contribute to this package, or contact me if you have any other comments or suggestions: matthias.haeni-AT-wsl.ch.
