@@ -1,4 +1,6 @@
 # Matthias Haeni
+# 2011-2015, extract of treegro
+# last change August 9, 2015
 
 require(RCurl)
 source_https <- function(url, ...) {
