@@ -31,13 +31,15 @@ Each function can be found in the complete R script called `timealgin.R`.
 
 ### Example
 ~~~~~~~
-source("https://raw.githubusercontent.com/datamat/timealign/master/timealign.R")
 library(chron)
+source("https://raw.githubusercontent.com/datamat/timealign/master/timealign.R")
+x <- "https://raw.githubusercontent.com/datamat/timealign/master/exampledata.RData"
+load(url(x))
 
-load("exampledata.RData")
 head(df)
 tail(df)
 
+# First column has to be a POSIXct-class and the name has to be "ts"
 foo <- tsalign(df,reso=10)
 
 head(foo)
