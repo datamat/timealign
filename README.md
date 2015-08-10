@@ -40,6 +40,7 @@ head(df)
 tail(df)
 
 # First column has to be a POSIXct-class and the name has to be "ts"
+# the second column has to be "val"
 foo <- tsalign(df,reso=10)
 
 head(foo)
