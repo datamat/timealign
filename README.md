@@ -30,7 +30,8 @@ Each function can be found in the complete R script called `timealgin.R`.
 - `fillintergaps`  This function fill all the gaps within a given time span in a linear way. 
 
 ### Example
-`source("https://raw.githubusercontent.com/datamat/timealign/master/timealign.R")
+~~~~~~~
+source("https://raw.githubusercontent.com/datamat/timealign/master/timealign.R")
 library(chron)
 
 load("exampledata.RData")
@@ -40,6 +41,7 @@ tail(df)
 foo <- tsalign(df,reso=10)
 
 head(foo)
-tail(foo)`
+tail(foo)
+~~~~~~~
 
 Please feel free to contribute to this package, or contact me if you have any other comments or suggestions: matthias.haeni-AT-wsl.ch.
