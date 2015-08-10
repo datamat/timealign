@@ -7,6 +7,7 @@ tsalign <-
     wnd <- reso*2.1
     type <- "linear"
     year <- "asis"
+    df <- df[order(df$ts),]
     st <- df$ts[1]
     en <- df$ts[length(df$ts)]
     df <- generatets(df, reso, TRUE, year)
