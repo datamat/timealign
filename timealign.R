@@ -2,10 +2,11 @@
 # 2011-2015, extract of treegro
 # last change August 9, 2015
 
-library(chron)
-
 tsalign <- 
   function(df, reso=10, wnd=reso*2.1, type="linear", year="asis") {
+    wnd <- reso*2.1
+    type <- "linear"
+    year <- "asis"
     st <- df$ts[1]
     en <- df$ts[length(df$ts)]
     df <- generatets(df, reso, TRUE, year)
