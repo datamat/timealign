@@ -20,7 +20,7 @@ The `devtools` package contains functions that allow you to install R packages d
 The easiest way to use any of the functions in the `timealign` package would be to install the CRAN version. However, this options does not exist yet. 
 
 ## Package contents
-Each function can be found in the complete R script called `timealgin.R`. 
+Each function can be found in the complete R script called `timealign.R`. 
 
 ### Descriptivion of functions
 - `tsalign`	 This is main function, where a data.frame is filled into a complete and perfectly aligned timestamp at the given resolution.
