@@ -1,4 +1,4 @@
-# timealign (R package)
+# timealign (R functions)
 ## Description
 This `timealign` package is an extract of R functions which can be sourced and used to align the timestamp of any kind of data. This R package is only one of many developed within the TreeNet project to process tree growth, eddy covariance, soil moisture, meteorological and other auxilary data.
 
